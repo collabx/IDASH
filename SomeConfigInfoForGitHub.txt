@@ -1,0 +1,14 @@
+Notes:
+
+The following seems relevant for puzzling out the proper GitHub callback URI for OAuth 2:
+>
+> https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=github%20authorization%20callback%20url
+> --
+> https://help.github.com/enterprise/11.10.340/admin/articles/configuring-github-oauth/
+> =====
+> Under Authorization callback URL, type the URL of your appliance followed by /auth/github_oauth/callback.
+
+> http(s)://hostname/auth/github_oauth/callback
+> Register application buttonClick Register application.
+
+> Client ID and Client SecretNote the "Client ID" and "Client Secret" values that appear (you will need them later).
